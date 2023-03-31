@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "first_name": "Bhuvan",
+      "last_name": "D",
+      "email": "bhuvan@arpino.tv"
+    },
+    {
+      "id": "2",
+      "first_name": "Arjun",
+      "last_name": "B",
+      "email": "arjun.b@arpino.tv"
+    },
+    {
+      "id": "3",
+      "first_name": "Avanthika",
+      "last_name": "B",
+      "email": "avanthika.b@aprino.tv"
+    },
+    {
+      "id": "4",
+      "first_name": "Nandini",
+      "last_name": "V P",
+      "email": "Nandu.vp@arpino.tv"
+    }
+  ]
+}
