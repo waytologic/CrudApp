@@ -1,0 +1,24 @@
+{
+	"login": {
+		"title": "உள்நுழைவு வடிவம்",
+		"username.label": "பயனர் பெயர்",
+		"username.placeholder": "இங்கே பயனர்பெயர்",
+		"password.label": "கடவுச்சொல்",
+		"password.placeholder": "கடவுச்சொல்லை உள்ளிடவும்",
+		"button.name": "உள்நுழைவு",
+		"forgotpassword.link": "கடவுச்சொல் மறந்து விட்டீர்களா ?",
+		"register.link": "புதிய கணக்கை உருவாக்க",
+		"button.en": "ஆங்கிலம்",
+		"button.ta": "தமிழ்",
+		"button.fr": "பிரஞ்சு",
+		"button.zh": "சீன"
+	},
+    "Previewbox":{
+        "title": "தமிழ்நாடு",
+        "lang": "மொழி"
+    },
+    "navitem":{
+        "home": "முகப்பு",
+        "lang": "மொழி"
+    }
+}

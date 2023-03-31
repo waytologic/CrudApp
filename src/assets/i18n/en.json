@@ -1,0 +1,24 @@
+{
+	"login": {
+		"title": "Login Form",
+		"username.label": "Username",
+		"username.placeholder": "Username Here",
+		"password.label": "Password",
+		"password.placeholder": "Enter Password",
+		"button.name": "Signin",
+		"forgotpassword.link": "Forgot Password ?",
+		"register.link": "Create New Account",
+		"button.en": "English",
+		"button.ta": "Tamil",
+		"button.fr": "French",
+		"button.zh": "Chinese"
+	},
+    "Previewbox":{
+        "title": "Tamil Nadu",
+        "lang":" Language"
+    },
+    "navitem":{
+        "home": "Home",
+        "lang": "Language"
+    }
+}
