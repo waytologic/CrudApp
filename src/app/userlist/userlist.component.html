@@ -1,0 +1,51 @@
+<div class="container">
+  <div class="beside"> <span class="tw" #tw2> </span><span #tw3></span> </div>
+
+<h1 class="tw" #tw></h1>
+  <div>&nbsp;</div>
+  <div class="col-md-6">
+<h2 class="mt-5">Create User</h2>
+<form #myform="ngForm">
+  <div class="form-group">
+      <label for="txtid">ID</label>
+      <input type="text" class="form-control" #id name="id" ngModel [(ngModel)]="userobj.id">
+  </div>
+  <div class="form-group">
+      <label for="txt_firstname">First Name</label>
+      <input type="text" class="form-control"  #First name="first_name" ngModel [(ngModel)]="userobj.first_name">
+  </div>
+  <div class="form-group">
+      <label for="txt_lasttname">Last Name</label>
+      <input type="text" class="form-control"  #Last name="last_name" ngModel [(ngModel)]="userobj.last_name">
+  </div>
+  <div class="form-group">
+      <label for="txt_email">E-mail</label>
+      <input type="email" class="form-control" #Email name="email" placeholder="name@example.com" ngModel [(ngModel)]="userobj.email">
+  </div>
+
+  <button type="button" class="btn btn-primary" (click)="adduser(myform.value)" *ngIf ="!IsEdit" >Create User</button>
+  <button type="button" class="btn btn-info" *ngIf ="IsEdit" (click)="Updateuser()">Update</button>
+</form>
+</div>
+<div class="container">
+<table class="table table-dark table-striped table-hover">
+  <thead>
+      <tr>
+      <th>#ID </th>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Email</th>
+      <th>Action</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr *ngFor ="let user of allUser">
+          <td>{{user.id}}</td>
+          <td>{{user.first_name}}</td>
+          <td>{{user.last_name}}</td>
+          <td>{{user.email}}</td>
+          <td><button (click)="Edituser(user)">Edit</button> | <button (click)="Deleteuser(user)">Delete</button></td>
+      </tr>
+  </tbody>
+</table>
+</div>
